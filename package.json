@@ -1,0 +1,17 @@
+{
+  "name": "react-wasm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd client && npm start",
+    "client:install": "cd client && npm install",
+    "build:wasm": "cd wasm && wasm-pack build --out-dir ../wasm-build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wasm-loader": "^1.3.0"
+  }
+}
